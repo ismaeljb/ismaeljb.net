@@ -1,0 +1,201 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 14px; 
+	margin: 0px;
+	padding: 0px;
+	background: #212121;
+	text-align: center;
+	/*overflow:hidden;*/
+}
+
+#wrapper {
+	/*position: relative;*/
+	margin-top: 0em;
+	margin-left: auto;
+	margin-right: auto;
+	/*margin-top: 0em;*/ /* IE */
+	/*width: 784px;*/
+	width: 50em;
+}
+
+#cabecera {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #CCCCCC;
+}
+
+#cabecera a {
+	color: white;
+}
+
+#cabecera a:hover {
+	color: #FF9900;
+}
+
+#flashmo_gallery {
+	margin-top: 0em;
+	margin-left: 0em;
+	margin-right: auto;
+}
+
+
+/* ESTILOS PARA EL MENU PRINCIPAL HORIZONTAL */
+#menu_hppal ul {
+	position: relative;
+	list-style: none;
+	/*width: 58em;*/
+	background: #FFFAF0 url(fondo_menu.gif) center bottom;
+	/*padding-left: 3em;*/
+	margin-left: 0em;
+	width: 100%;
+	height: 2em;
+}
+
+#menu_hppal ul li { /* all list items */
+	float: left;
+	width: 10em;
+	/*padding-left: 1em;
+	padding-right: 1em;*/
+}
+
+#menu_hppal ul li.last { /* all list items */
+	background: none;
+}
+
+
+#menu_hppal li>ul {/* to override top and left in browsers other than IE */
+	top: auto;
+	left: auto;
+}
+
+
+/* Fix IE. Hide from IE Mac \*/
+* html #menu_hppal ul li { float: left; height: 1%; }
+* html #menu_hppal ul li a { height: 1%; }
+/* End */
+
+#menu_hppal li:hover ul { display: block; }
+
+#menu_hppal li:hover>ul { visibility:visible; }
+
+#menu_hppal ul ul { visibility:hidden; }		
+
+/* Make-up syles */
+#menu_hppal ul, li {
+    margin: 0 0 0 0; 
+}
+
+/* Styles for Menu Items */
+#menu_hppal ul a {
+	font-size: 1em;
+	font-weight: bold;
+	display: block; 
+	text-decoration: none; 
+	text-align: center;
+	color: white;
+	/*background: black;*/ /* IE6 Bug */ 
+	padding: 0.4em; /* Determina la altura de los elementos del menú */
+	border-bottom: 0;
+}
+
+/* Hover Styles */
+#menu_hppal ul a:hover { 
+	color: #FF9900;
+}
+
+#anyo_fotos a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 0.9em;
+	font-weight: bold; 
+
+}
+
+#anyo_fotos a:hover{
+	color: #FF9900;
+}
+
+#anyo_fotos form input.pass{
+   font-size: 0.9em;
+   background: url("background_input.gif") repeat-x left top;
+   border: 0.1em solid #000000;
+   color: #000000;
+}
+
+#anyo_fotos form input.button{
+   font-size: 0.9em;
+   background: #CCCCCC;
+   border: 0.1em solid #000000;
+   color: #000000;
+}
+
+.enlace_thumbnail {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+.enlace_thumbnail:hover {
+	color: #FF9900;
+}
+
+.input_presentacion{
+   font-size: 0.9em;
+   background: url("background_input.gif") repeat-x left top;
+   border: 0.1em solid #000000;
+   color: #000000;
+   text-align:center;
+}
+
+.marco_thumbnail {
+	 border: 0.2em solid #CCCCCC;
+}
+
+.marco_thumbnail:hover {
+	 border: 0.2em solid #FF9900;
+}
+
+.marco_thumbnail_publica {
+	 border: 0.2em solid #CD5C5C;
+}
+
+#anyo{
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	background: /*#FFFAF0*/ url(fondo_anyo.gif) center bottom;
+	width: 90%;
+	margin-left: 2em;
+}
+
+#enlace_beer {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+#enlace_beer:hover{
+	color: #FF9900;
+}
+
+
+#firma {
+	font-size: 0.8em;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+}
+
+#firma a{
+	color: #3366CC;
+	text-decoration: underline;
+}
+
+#firma a:hover{
+	color: #FF9900;
+}
